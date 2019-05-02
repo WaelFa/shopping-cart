@@ -1,0 +1,51 @@
+body{
+    background-image: url("https://wallpaperplay.com/walls/full/d/0/b/214841.jpg");
+    display: flex;
+    justify-content: center;
+}
+section{
+    background-color: rgba(255, 255, 255, 0.3);
+    width:60%;
+    align-self: center;
+    margin-top: 150px;
+    border-radius: 10px;
+}
+.total{
+    border-bottom: 1px solid rgba(167, 146, 146, 0.842);
+}
+.total p{
+    margin-left: 40px;
+    font-size: 20px;
+}
+div{
+    border-bottom: 1px solid rgba(167, 146, 146, 0.842);
+    display: flex;
+    flex: wrap;
+    justify-content: space-between;
+}
+
+img{
+    height: 200px;
+    width: 150px;
+    margin: 20px 0px;
+}
+.far, .fas {
+    margin: auto 20px;
+    color:black;
+}
+
+.element p{
+    margin: auto 40px;
+}
+.buttons{
+    width: 50%;
+    display: flex;
+    flex: wrap;
+    justify-content: flex-end;
+}
+.buttons button, input{
+    height: 25px;
+    width:25px;
+    margin: auto 0px;
+    text-align: center;
+}
